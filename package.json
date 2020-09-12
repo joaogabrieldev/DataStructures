@@ -1,0 +1,31 @@
+{
+  "name": "DataStructures",
+  "version": "1.0.0",
+  "description": "Repository dedicated to the discipline of Data Structure of the Systems Analysis and Development course at the Federal University of Rio Grande do Norte (UFRN).",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/preset-env": "^7.11.0",
+    "@types/jest": "^26.0.10",
+    "babel-jest": "^26.3.0",
+    "jest": "^26.4.2",
+    "jsdoc": "^3.6.5"
+  },
+  "scripts": {
+		"test": "jest",
+		"docs": "./node_modules/.bin/jsdoc -c jsdoc.json"
+	},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaogabrieldev/DataStructures.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaogabrieldev/DataStructures/issues"
+  },
+  "homepage": "https://github.com/joaogabrieldev/DataStructures#readme"
+}
