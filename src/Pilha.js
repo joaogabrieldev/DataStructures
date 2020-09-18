@@ -1,5 +1,5 @@
 class Pilha {
-    // Construtor da pilha
+
     constructor(tamanho = 10){
         this.tamanhoMax = tamanho;
         this.dados = [];
@@ -7,11 +7,9 @@ class Pilha {
     }
 
     push(novoDado){
-        // verifica se está cheia a pilha
         if (this.isFull()) {
             throw new Error("Overflow");
         } else {
-            //incrementa o topo, para que o novo dado seja inserido na ultima posição do array
             this.dados[++this.topo] = novoDado;
         }
     }
@@ -20,9 +18,7 @@ class Pilha {
         if (this.isEmpty()) {
             throw new Error ("Empty");
         } else {
-            // Decrementa o topo, fazendo com que o elemento anterior se torne o topo. (removendo o antigo do topo)
             return this.dados[this.topo--];
-            // retorna o elemento que foi removido
         }
     }
 

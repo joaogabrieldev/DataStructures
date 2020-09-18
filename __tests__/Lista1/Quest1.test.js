@@ -25,8 +25,8 @@ test("Split error: ", () => {
     }).toThrow('impossible to divide by 0');
 
     expect(() => {
-        f1.divide(f3).toThrow("imposible to divide by 0")
-    })
+        f1.divide(f3)
+    }).toThrow("imposible to divide by 0")
 
 })
 
