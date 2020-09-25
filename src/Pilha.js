@@ -13,7 +13,7 @@ class Pilha {
             this.dados[++this.topo] = novoDado;
         }
     }
-
+    
     pop(){
         if (this.isEmpty()) {
             throw new Error ("Empty");
